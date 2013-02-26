@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B343916DC554100131907 /* Foundation.framework */; };
 		0D0B344416DC554100131907 /* Everlag.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B344316DC554100131907 /* Everlag.mm */; };
+		0D0B344F16DC582100131907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B344E16DC582100131907 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0D0B344216DC554100131907 /* Everlag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everlag-Prefix.pch"; sourceTree = "<group>"; };
 		0D0B344316DC554100131907 /* Everlag.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Everlag.mm; sourceTree = "<group>"; };
 		0D0B344816DC554100131907 /* Everlag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Everlag.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Everlag.plist; sourceTree = "<group>"; };
+		0D0B344E16DC582100131907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0B344F16DC582100131907 /* UIKit.framework in Frameworks */,
 				0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +40,7 @@
 		0D0B342C16DC554100131907 = {
 			isa = PBXGroup;
 			children = (
+				0D0B344E16DC582100131907 /* UIKit.framework */,
 				0D0B343B16DC554100131907 /* Everlag */,
 				0D0B343816DC554100131907 /* Frameworks */,
 				0D0B343716DC554100131907 /* Products */,
@@ -269,11 +273,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
-				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevDevice = ipad;
+				iOSOpenDevInstallOnAnyBuild = YES;
 				iOSOpenDevInstallOnProfiling = YES;
-				iOSOpenDevRespringOnInstall = YES;
-				iOSOpenDevUsePackageVersionPList = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = NO;
 			};
 			name = Debug;
 		};
@@ -288,11 +292,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
-				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevDevice = ipad;
+				iOSOpenDevInstallOnAnyBuild = YES;
 				iOSOpenDevInstallOnProfiling = YES;
-				iOSOpenDevRespringOnInstall = YES;
-				iOSOpenDevUsePackageVersionPList = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = NO;
 			};
 			name = Release;
 		};
