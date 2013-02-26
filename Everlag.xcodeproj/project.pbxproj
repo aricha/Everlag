@@ -10,6 +10,7 @@
 		0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B343916DC554100131907 /* Foundation.framework */; };
 		0D0B344416DC554100131907 /* Everlag.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B344316DC554100131907 /* Everlag.mm */; };
 		0D0B344F16DC582100131907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B344E16DC582100131907 /* UIKit.framework */; };
+		0D8A050716DC8EAD00DACF82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8A050616DC8EAD00DACF82 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0D0B344316DC554100131907 /* Everlag.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Everlag.mm; sourceTree = "<group>"; };
 		0D0B344816DC554100131907 /* Everlag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Everlag.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Everlag.plist; sourceTree = "<group>"; };
 		0D0B344E16DC582100131907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D8A050616DC8EAD00DACF82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8A050716DC8EAD00DACF82 /* QuartzCore.framework in Frameworks */,
 				0D0B344F16DC582100131907 /* UIKit.framework in Frameworks */,
 				0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */,
 			);
@@ -40,7 +43,6 @@
 		0D0B342C16DC554100131907 = {
 			isa = PBXGroup;
 			children = (
-				0D0B344E16DC582100131907 /* UIKit.framework */,
 				0D0B343B16DC554100131907 /* Everlag */,
 				0D0B343816DC554100131907 /* Frameworks */,
 				0D0B343716DC554100131907 /* Products */,
@@ -58,6 +60,8 @@
 		0D0B343816DC554100131907 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D8A050616DC8EAD00DACF82 /* QuartzCore.framework */,
+				0D0B344E16DC582100131907 /* UIKit.framework */,
 				0D0B343916DC554100131907 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -319,6 +323,7 @@
 				0D0B344D16DC554100131907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
