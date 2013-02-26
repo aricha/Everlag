@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B343916DC554100131907 /* Foundation.framework */; };
+		0D0B344416DC554100131907 /* Everlag.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B344316DC554100131907 /* Everlag.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0B343616DC554100131907 /* Everlag.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Everlag.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0B343916DC554100131907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D0B343E16DC554100131907 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		0D0B343F16DC554100131907 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		0D0B344116DC554100131907 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		0D0B344216DC554100131907 /* Everlag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everlag-Prefix.pch"; sourceTree = "<group>"; };
+		0D0B344316DC554100131907 /* Everlag.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Everlag.mm; sourceTree = "<group>"; };
+		0D0B344816DC554100131907 /* Everlag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Everlag.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Everlag.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D0B343216DC554100131907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0B343A16DC554100131907 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0B342C16DC554100131907 = {
+			isa = PBXGroup;
+			children = (
+				0D0B343B16DC554100131907 /* Everlag */,
+				0D0B343816DC554100131907 /* Frameworks */,
+				0D0B343716DC554100131907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D0B343716DC554100131907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B343616DC554100131907 /* Everlag.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0B343816DC554100131907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B343916DC554100131907 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D0B343B16DC554100131907 /* Everlag */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B344316DC554100131907 /* Everlag.mm */,
+				0D0B343C16DC554100131907 /* Package */,
+				0D0B344016DC554100131907 /* Supporting Files */,
+			);
+			path = Everlag;
+			sourceTree = "<group>";
+		};
+		0D0B343C16DC554100131907 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B343D16DC554100131907 /* DEBIAN */,
+				0D0B344516DC554100131907 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		0D0B343D16DC554100131907 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B343E16DC554100131907 /* control.txt */,
+				0D0B343F16DC554100131907 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		0D0B344016DC554100131907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B344116DC554100131907 /* PackageVersion.plist */,
+				0D0B344216DC554100131907 /* Everlag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D0B344516DC554100131907 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B344616DC554100131907 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		0D0B344616DC554100131907 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B344716DC554100131907 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		0D0B344716DC554100131907 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B344816DC554100131907 /* Everlag.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D0B343316DC554100131907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D0B343516DC554100131907 /* Everlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0B344B16DC554100131907 /* Build configuration list for PBXNativeTarget "Everlag" */;
+			buildPhases = (
+				0D0B343116DC554100131907 /* Sources */,
+				0D0B343216DC554100131907 /* Frameworks */,
+				0D0B343316DC554100131907 /* Headers */,
+				0D0B343416DC554100131907 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everlag;
+			productName = Everlag;
+			productReference = 0D0B343616DC554100131907 /* Everlag.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D0B342D16DC554100131907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 0D0B343016DC554100131907 /* Build configuration list for PBXProject "Everlag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D0B342C16DC554100131907;
+			productRefGroup = 0D0B343716DC554100131907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0B343516DC554100131907 /* Everlag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0B343416DC554100131907 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0B343116DC554100131907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0B344416DC554100131907 /* Everlag.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D0B344916DC554100131907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		0D0B344A16DC554100131907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		0D0B344C16DC554100131907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everlag/Everlag-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		0D0B344D16DC554100131907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everlag/Everlag-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0B343016DC554100131907 /* Build configuration list for PBXProject "Everlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0B344916DC554100131907 /* Debug */,
+				0D0B344A16DC554100131907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0B344B16DC554100131907 /* Build configuration list for PBXNativeTarget "Everlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0B344C16DC554100131907 /* Debug */,
+				0D0B344D16DC554100131907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D0B342D16DC554100131907 /* Project object */;
+}
