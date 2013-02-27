@@ -18,7 +18,6 @@
 		0D0B343916DC554100131907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D0B343E16DC554100131907 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		0D0B343F16DC554100131907 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		0D0B344116DC554100131907 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		0D0B344216DC554100131907 /* Everlag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everlag-Prefix.pch"; sourceTree = "<group>"; };
 		0D0B344316DC554100131907 /* Everlag.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Everlag.mm; sourceTree = "<group>"; };
 		0D0B344816DC554100131907 /* Everlag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Everlag.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Everlag.plist; sourceTree = "<group>"; };
@@ -98,7 +97,6 @@
 		0D0B344016DC554100131907 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D0B344116DC554100131907 /* PackageVersion.plist */,
 				0D0B344216DC554100131907 /* Everlag-Prefix.pch */,
 			);
 			name = "Supporting Files";
